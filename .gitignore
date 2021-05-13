@@ -1,0 +1,5 @@
+/node_modules
+/generated/*.ts
+/gql/*.tsx
+/graphql/*.graphql
+/schema/*schema.gql
