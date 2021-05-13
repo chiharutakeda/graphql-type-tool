@@ -1,5 +1,5 @@
 /node_modules
 /generated/*.ts
-/gql/*.tsx
+/gql/*.ts
 /graphql/*.graphql
 /schema/*schema.gql

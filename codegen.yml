@@ -1,8 +1,8 @@
 overwrite: true
-schema: "http://localhost:4000/graphql"
-documents: "src/graphql/*.graphql"
+schema: "schema/schema.gql"
+documents: "graphql/*.graphql"
 generates:
-  src/generated/graphql.tsx:
+  generated/graphql.ts:
     plugins:
       - "typescript"
       - "typescript-operations"
@@ -10,4 +10,4 @@ generates:
     config:
       withHOC: false
       withComponent: false
-      withHooks: true
+      withHooks: false
