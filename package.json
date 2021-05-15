@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "createtype": "yarn run apollo client:codegen --no-addTypename --target=typescript --localSchemaFile schema/schema.gql --outputFlat --includes \"**/gql/**\" --excludes \"generated\" generated ",
+    "createtype": "apollo client:codegen --target=typescript --outputFlat  generated ",
     "gen": "graphql-codegen --config codegen.yml"
   },
   "dependencies": {
